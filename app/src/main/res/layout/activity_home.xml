@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".home">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="40dp"
+        android:shadowColor="#5C91E6"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="5"
+        android:textStyle="bold"
+        android:textColor="#3381FF"
+        android:text="MyData"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#3381FF"
+            android:text="Halo,"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sapaan"
+            android:layout_marginLeft="5dp"
+            android:text="Admin"
+            android:textColor="#3381FF"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical"
+        android:background="@drawable/image">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/ktp"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="20dp"
+                android:text="KTP"
+                android:textSize="20dp"
+                android:backgroundTint="#3381FF" />
+            <Button
+                android:id="@+id/kk"
+                android:layout_width="190dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="35dp"
+                android:text="KARTU KELUARGA"
+                android:textSize="15dp"
+                android:backgroundTint="#3381FF" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="170dp"
+                android:layout_height="60dp"
+                android:id="@+id/AK"
+                android:layout_marginLeft="20dp"
+                android:text="AKTA KEMATIAN"
+                android:textSize="15dp"
+                android:backgroundTint="#3381FF" />
+            <Button
+                android:layout_width="190dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="20dp"
+                android:text="AKTA KELAHIRAN"
+                android:textSize="15dp"
+                android:backgroundTint="#3381FF"
+                android:id="@+id/aktekelahiran"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="200dp"
+        android:background="#3381FF">
+
+        <ImageView
+            android:id="@+id/home"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="60dp"
+            android:src="@drawable/home" />
+
+        <ImageView
+            android:id="@+id/calendar"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="170dp"
+            android:src="@drawable/calendar" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

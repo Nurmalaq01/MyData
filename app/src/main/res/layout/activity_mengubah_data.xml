@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".mengubah_data">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="40dp"
+        android:shadowColor="#5C91E6"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="5"
+        android:textStyle="bold"
+        android:textColor="#3381FF"
+        android:text="MyData"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#3381FF"
+        android:text="KARTU KELUARGA"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        android:textColor="#3381FF"
+        android:text="Masukkan Data yang Ingin Anda Ubah"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#3381FF"
+        android:textColorHint="#3381FF"
+        android:id="@+id/form"
+        android:hint="Nomor KK"
+        android:inputType="text"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#3381FF"
+        android:textColorHint="#3381FF"
+        android:id="@+id/form2"
+        android:hint="Nama Kepala Keluarga"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#3381FF"
+        android:textColorHint="#3381FF"
+        android:id="@+id/form4"
+        android:hint="NIK Kepala Keluarga"
+        android:inputType="number"
+        />
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColorHint="#3381FF"
+        android:hint="PILIH KECAMATAN"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
+        android:layout_marginHorizontal="50dp">
+        <AutoCompleteTextView
+            android:id="@+id/dropdown_field2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="none"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColorHint="#3381FF"
+        android:hint="PILIH KELURAHAN"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
+        android:layout_marginHorizontal="50dp">
+        <AutoCompleteTextView
+            android:id="@+id/dropdown_field3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="none"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="15dp"
+        android:textColor="#3381FF"
+        android:textColorHint="#3381FF"
+        android:id="@+id/form6"
+        android:hint="RT/RW"
+        android:inputType="text"
+        />
+    <Button
+        android:id="@+id/Login2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="20dp"
+        android:text="Lanjut"
+        android:textSize="20dp"
+        android:backgroundTint="#3381FF"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="95dp"
+        android:background="#3381FF">
+
+        <ImageView
+            android:id="@+id/home"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="60dp"
+            android:src="@drawable/home" />
+
+        <ImageView
+            android:id="@+id/home1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="170dp"
+            android:src="@drawable/calendar" />
+
+    </LinearLayout>
+</LinearLayout>

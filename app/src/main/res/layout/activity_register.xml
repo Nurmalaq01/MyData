@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".register">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center_horizontal"
+        android:textSize="60dp"
+        android:shadowColor="#5C91E6"
+        android:shadowDx="10"
+        android:shadowDy="20"
+        android:shadowRadius="5"
+        android:textStyle="bold"
+        android:textColor="#3381FF"
+        android:text="MyData"
+        />
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginHorizontal="40dp"
+        android:textColor="#3381FF"
+        android:textColorHint="#3381FF"
+        android:id="@+id/etemail"
+        android:hint="Email"
+        android:inputType="text"
+
+        />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/etname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="20dp"
+        android:hint="Nama Lengkap"
+        android:inputType="text"
+        android:textColor="#3381FF"
+        android:textColorHint="#3381FF" />
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#3381FF"
+        android:textColorHint="#3381FF"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:id="@+id/etpass"
+        />
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#3381FF"
+        android:textColorHint="#3381FF"
+        android:hint="Konfirmasi Password"
+        android:inputType="textPassword"
+        android:id="@+id/etkonfpass"
+        />
+
+    <Button
+        android:id="@+id/registry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="90dp"
+        android:backgroundTint="#3381FF"
+        android:text="Daftar"
+        android:textSize="20dp" />
+
+</LinearLayout>

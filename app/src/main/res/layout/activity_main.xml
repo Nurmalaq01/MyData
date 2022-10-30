@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center_horizontal"
+        android:textSize="60dp"
+        android:shadowColor="#5C91E6"
+        android:shadowDx="10"
+        android:shadowDy="20"
+        android:shadowRadius="5"
+        android:textStyle="bold"
+        android:textColor="#3381FF"
+        android:text="MyData"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginHorizontal="40dp"
+        android:textColor="#3381FF"
+        android:textColorHint="#3381FF"
+        android:id="@+id/mskemail"
+        android:hint="Email"
+        android:inputType="text"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#3381FF"
+        android:textColorHint="#3381FF"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:id="@+id/mskpass"
+        />
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="90dp"
+        android:text="Masuk"
+        android:textSize="20dp"
+        android:backgroundTint="#3381FF"
+        />
+
+    <TextView
+        android:id="@+id/next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:text="Belum punya akun? Daftar sekarang"
+        android:textColor="#FF0000"
+        android:textSize="20dp" />
+
+</LinearLayout>
